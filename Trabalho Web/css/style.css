@@ -226,3 +226,26 @@ body.escuro textarea{
     border: 1px solid #777;
 
 }
+.botao{
+
+    display: inline-block;
+
+    margin-top: 15px;
+
+    padding: 10px 15px;
+
+    background-color: #1f4e79;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+
+}
+
+.botao:hover{
+
+    background-color: #163b5d;
+
+}
