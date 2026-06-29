@@ -1,0 +1,251 @@
+/* Configurações gerais */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do site */
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+
+}
+
+/* Cabeçalho */
+
+header {
+
+    background-color: #1f4e79;
+    color: white;
+
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+/* Menu */
+
+nav ul {
+
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+nav a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+
+    text-decoration: underline;
+
+}
+
+/* Botão */
+
+#tema {
+
+    padding: 8px 12px;
+    cursor: pointer;
+
+}
+
+/* Seções */
+
+section {
+
+    width: 95%;
+    max-width: 1200px;
+
+    margin: 40px auto;
+
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+
+}
+
+/* Títulos */
+
+h2 {
+
+    margin-bottom: 15px;
+    color: #1f4e79;
+
+}
+
+h3{
+
+    margin-top:15px;
+    margin-bottom:10px;
+
+}
+
+p {
+
+    margin-bottom: 18px;
+    line-height: 1.8;
+
+}
+
+ul{
+
+    margin-left:20px;
+
+}
+
+/* Formulário */
+
+form {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+label {
+
+    margin-top: 10px;
+
+}
+
+input,
+textarea {
+
+    margin-top: 5px;
+    padding: 10px;
+
+}
+
+form button {
+
+    margin-top: 20px;
+
+    padding: 10px;
+
+    background-color: #1f4e79;
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+form button:hover {
+
+    background-color: #163b5d;
+
+}
+
+/* Rodapé */
+
+footer {
+
+    text-align: center;
+
+    padding: 20px;
+
+    background-color: #1f4e79;
+
+    color: white;
+
+}
+
+/* Responsividade */
+
+@media (max-width: 768px){
+
+    header{
+
+        flex-direction: column;
+
+    }
+
+    nav ul{
+
+        flex-direction: column;
+        margin-top:15px;
+        text-align:center;
+
+    }
+
+    section{
+
+        width:95%;
+
+    }
+
+}
+/* Tema escuro */
+
+body.escuro{
+
+    background-color: #222;
+    color: white;
+
+}
+
+body.escuro section{
+
+    background-color: #333;
+    color: white;
+
+}
+
+body.escuro h2{
+
+    color: #7db7ff;
+
+}
+
+body.escuro input,
+body.escuro textarea{
+
+    background-color: #555;
+    color: white;
+    border: 1px solid #777;
+
+}
+.botao{
+
+    display: inline-block;
+
+    margin-top: 15px;
+
+    padding: 10px 15px;
+
+    background-color: #1f4e79;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+
+}
+
+.botao:hover{
+
+    background-color: #163b5d;
+
+}
